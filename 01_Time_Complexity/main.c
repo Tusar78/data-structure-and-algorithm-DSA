@@ -25,17 +25,33 @@ int main()
 
 // Example three big O(n). using for loop
 
-int main()
-{
-  int i, n, result;
-  printf("Enter your number: ");
-  scanf("%d", &n);
-  result = 0;
-  for (i = 0; i <= n; i++)
-  {
-    result += i;
-  }
-  printf("Your result is: %d", result);
+// int main()
+// {
+//   int i, n, result;
+//   printf("Enter your number: ");
+//   scanf("%d", &n);
+//   result = 0;
+//   for (i = 0; i <= n; i++)
+//   {
+//     result += i;
+//   }
+//   printf("Your result is: %d", result);
 
+//   return 0;
+// }
+
+// Example of big O(n_squire)
+int main() {
+  int i, j, n, count;
+  printf("Enter you number: ");
+  scanf("%d", &n);
+
+  count = 0;
+  for (i = 0; i < n; i++){
+    for (j = 0; j < n; j++){
+      count += 1; 
+    }    
+  }
+  printf("You entered: %d, and count is: %d", n, count);  
   return 0;
 }
