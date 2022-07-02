@@ -13,7 +13,7 @@ int main()
 }
 */
 
-// Example two of BIG O(n). showing shomantor dhara rules: n * ( n + 1 ) / 2
+// Example two of BIG O(1). showing shomantor dhara rules: n * ( n + 1 ) / 2
 
 int main() {
   int n, result;
